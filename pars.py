@@ -1,6 +1,6 @@
 import youtube_dl
 def run():
-    video_url = "сюда вставте сылку на видео"
+    video_url = "youtube_url"
     video_info = youtube_dl.YoutubeDL().extract_info(
         url = video_url,download=False
     )
